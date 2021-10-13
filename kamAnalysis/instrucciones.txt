@@ -1,0 +1,19 @@
+ python -m django --version
+
+ django-admin startproject nameProject
+ python manage.py startapp nameApp
+
+ python manage.py makemigrations analysis
+ python manage.py sqlmigrate analysis 0001
+ python manage.py migrate
+ python manage.py check
+ python manage.py shell
+ 
+ python manage.py createsuperuser
+
+ python manage.py runserver
+
+ admin.site.register(nameModel)
+
+ python manage.py test nameApp
+
